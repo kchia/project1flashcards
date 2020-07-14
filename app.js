@@ -75,10 +75,11 @@ getAQuestion();
 // shows hint
 const useTheForce = document.querySelector('.hintButton')
 useTheForce.addEventListener('click', getAHint)
-function getAHint() {
-   
+function getAHint(event) {
+   frontOfCard.innerHTML += `<p>${questionAnswer[currentQuestionIndex].hint}</p>`;
+   event.target.disabled = true;
 }
-getAHint()
+
 
 //shows answer
 
@@ -94,7 +95,9 @@ const moveAhead = document.querySelector('.advanceButton')
 moveAhead.addEventListener('click', advanceForward)
 function advanceForward() {
     currentQuestionIndex ++ 
-    getAQuestion ()
+    getAQuestion()
+    getAnAnswer()
+    useTheForce.disabled = false
 }
 
 function restartGame() {}

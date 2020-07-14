@@ -1,9 +1,8 @@
 *{
     text-align: center;
     color: gold;
-    /* background-color: navy;  */
     font-family: 'Oswald', sans-serif;  
-    background-image: url(https://cdn.wallpapersafari.com/89/3/HVE5bi.jpg);
+     
 }
  body {
      padding: 0;
@@ -13,7 +12,12 @@
      height: 100vh;
      justify-content: center;
      align-items: center;
+      background-image: url(https://cdn.wallpapersafari.com/89/3/HVE5bi.jpg);
 
+ }
+
+ p {
+     color: black
  }
 
 
