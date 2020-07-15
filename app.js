@@ -6,17 +6,18 @@ let currentQuestionIndex = 0;
 let questionAnswer = [
 	{
 		question: 'Who directed The Last Jedi?',
-		answer: 'Rian Johnson, it is widely accepted across almost all of pop culture that he made the most divisive Star-Wars film!',
+		answer: 'Rian Johnson directed The Last Jedi, it is widely accepted across almost all of pop culture that he made the most divisive Star-Wars film!',
 		hint: 'He directed Looper!',
+		
 	},
 	{
 		question: 'Who was the Padawan of Anakin Skywalker?',
-		answer: 'Ashsoka Tano, the dual lightsaber, Torguta, FORMER Jedi!',
+		answer: 'Ashsoka Tano was his padawan, the dual lightsaber, Torguta, FORMER Jedi!',
 		hint: 'she was one of the heroes in Star Wars Rebels!',
 	},
 	{
 		question: 'What planet was Han Solo born on?',
-		answer: 'Corelia, criminal underwold, and Emperial ship building planet!',
+		answer: 'Corelia is where he was born and raised, criminal underwold, and Emperial ship building planet!',
 		hint:
 			'Think of the first planet that was feautured in Solo, A Star Wars Story',
 	},
@@ -28,20 +29,20 @@ let questionAnswer = [
 	{
 		question:
 			'What was the last name of Luke Skywalker in the original draft of A New Hope?',
-		answer: 'Starkiller, it is assumed that he changed the name to sound less aggressive, do you know the original name of Star-Wars, episode 6?',
+		answer: 'his original last name was Starkiller, it is assumed that he changed the name to sound less aggressive, do you know the original name of Star-Wars, episode 6?',
 		hint:
 			'The Force Awakens direcotr, JJ Abrams, named their planet destroying weapon after Lukes original last name',
 	},
 	{
 		question:
 			'Who was the main adversary of Obi-Wan-Kenobi throughout the majority of his life?',
-		answer: 'Darth-Maul, ruler of Mandalore,wielder of the dark-saber, and the once apprentice to Palpatine!',
+		answer: 'Darth-Maul is his lifelong rival, ruler of Mandalore,wielder of the dark-saber, and the once apprentice to Palpatine!',
 		hint: 'Duel of the Fates!',
 	},
 	{
 		question:
 			'What kind of ship did the Rebel hero, Luke Skywalker fly when he destroyed the first death-star?',
-		answer: 'X-Wing, one of the most popular air crafts in all of science fiction! ',
+		answer: 'The X-Wing, one of the most popular air crafts in all of science fiction! ',
 		hint: 'come on, everyone knows this.',
 	},
 	{
@@ -52,7 +53,7 @@ let questionAnswer = [
 	},
 	{
 		question: 'What was the birth name of Kylo Ren?',
-		answer: 'Ben Solo, this character struggled with the dark side because his parents were Rebel heroes, and his grandpa was Vader.',
+		answer: 'Ben Solo, widely known across the galaxy as Kylo Ren, this character struggled with the dark side because his parents were Rebel heroes, and his grandpa was Vader.',
 		hint:
 			'his parents are the other two war heroes from the original trilogy, named him after a powerful Jedi who helped them in A New Hope!',
 	},
