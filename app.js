@@ -62,7 +62,7 @@ let questionAnswer = [
 		hint: 'think opera scene in Revenge of The Sith',
 	},
 ];
-console.log(questionAnswer);
+
 
 const frontOfCard = document.getElementById('frontOfCard');
 const backOfCard = document.getElementById('backOfCard');
