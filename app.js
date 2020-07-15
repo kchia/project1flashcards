@@ -96,7 +96,8 @@ moveAhead.addEventListener('click', advanceForward)
 function advanceForward() {
     currentQuestionIndex ++ 
     getAQuestion()
-    getAnAnswer()
+	getAnAnswer()
+	flipCard()
     useTheForce.disabled = false
 }
 
