@@ -14,7 +14,8 @@
      height: 97vh;
      justify-content: center;
      /* align-items: center; */
-      background-image: url(https://cdn.wallpapersafari.com/89/3/HVE5bi.jpg);
+      /* background-image: url(https://cdn.wallpapersafari.com/89/3/HVE5bi.jpg); */
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPOVyDWa2-yNkc3Z7Ep6bLPBoedmYOXuIX2g&usqp=CAU);
 
  }
 
@@ -28,7 +29,7 @@
     position: absolute;
     width: 70%;
     height: 320px;
-    font-family: 'Oswald', sans-serif;
+   font-family: 'Anton', sans-serif;
     
   
 }
