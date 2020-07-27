@@ -1,88 +1,77 @@
-*{
-    text-align: center;
-    color: gold;
-    /* font-family: 'Lexend Zetta', sans-serif; */
-font-family: 'Anton', sans-serif;
-     
+/* 
+In general, I'd not recommend using tag selectors (e.g., h1) to target elements 
+for styling purposes because tag selectors are not specific enough and can easily 
+get overridden. Just stick with class selectors instead. 
+Here are some reasons why: https://frontstuff.io/you-need-to-stop-targeting-tags-in-css
+*/
+
+* {
+  text-align: center;
+  color: gold;
+  font-family: 'Anton', sans-serif;
 }
- body {
-     margin: 5em 0 0 0;
-     padding: 0;
-    
-     display: flex;
-     width: 100vw;
-     height: 97vh;
-     justify-content: center;
-     /* align-items: center; */
-      /* background-image: url(https://cdn.wallpapersafari.com/89/3/HVE5bi.jpg); */
-      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPOVyDWa2-yNkc3Z7Ep6bLPBoedmYOXuIX2g&usqp=CAU);
+body {
+  margin: 5em 0 0 0;
+  padding: 0;
+  display: flex;
+  width: 100vw;
+  height: 97vh;
+  justify-content: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPOVyDWa2-yNkc3Z7Ep6bLPBoedmYOXuIX2g&usqp=CAU);
+}
 
- }
+p {
+  color: black;
+}
 
- p {
-     color: black
- }
-
- 
-
-.container{
-    position: absolute;
-    width: 70%;
-    height: 320px;
-   font-family: 'Lexend Zetta', sans-serif;
-    
-  
+.container {
+  position: absolute;
+  width: 70%;
+  height: 320px;
+  font-family: 'Lexend Zetta', sans-serif;
 }
 
 button {
-    background-color: gray;
-    color: black;
-      font-size: 15px;
-    border-radius: 20px 20px 20px 20px;
-    padding: 9px;
-    box-shadow: 10px 10px 32px -12px rgba(0,0,0,0.75);
-    border: 5px solid black;
-    font-weight: bold;
-
-
+  background-color: gray;
+  color: black;
+  font-size: 15px;
+  border-radius: 20px 20px 20px 20px;
+  padding: 9px;
+  box-shadow: 10px 10px 32px -12px rgba(0, 0, 0, 0.75);
+  border: 5px solid black;
+  font-weight: bold;
 }
 
-.card{
-    align-content: center;
-    / position: absolute; 
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.5s ease;
-    font-size: 25px;
-    border: 5px solid black;
-   
-
-   
+.card {
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  font-size: 25px;
+  border: 5px solid black;
 }
 
 .flipped {
-    transform: rotateY(180deg)
+  transform: rotateY(180deg);
 }
 
-#frontOfCard{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    background: gold;
-    color: black;
-    font-weight: bold;
+#frontOfCard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: gold;
+  color: black;
+  font-weight: bold;
 }
 
-#backOfCard{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    background: black;
-    /* color:#333; */
-    transform: rotateY(180deg);
-    font-weight: bold;
-} 
-header {
+#backOfCard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: black;
+  transform: rotateY(180deg);
+  font-weight: bold;
+}
